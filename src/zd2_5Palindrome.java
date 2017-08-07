@@ -5,14 +5,12 @@ import java.util.Scanner;
  */
 public class zd2_5Palindrome {
     public static void main(String[] args) {
-        boolean z;
         String number;
         zd2_5Palindrome k = new zd2_5Palindrome();
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите число на проверку");
         number = scan.nextLine();
-        z = k.IsPalindrome(number);
-        if (z == true){
+        if (k.IsPalindrome(number) == true){
             System.out.println("Полиндром");
         } else {
             System.out.println("Не полиндром");
