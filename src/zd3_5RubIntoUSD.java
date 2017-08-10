@@ -10,7 +10,6 @@ public class zd3_5RubIntoUSD {
         System.out.println("Введите количество рублей и курс валют");
         double dollar =usd.change(scan.nextDouble(),scan.nextDouble());
         System.out.println(dollar);
-        System.out.println("хех");
     }
     private double change(double rub, double rates){
         return rub/rates;
